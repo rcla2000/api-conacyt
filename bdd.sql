@@ -23,4 +23,4 @@ alter table lineas_investigacion
 add constraint fk_area_linea_investigacion foreign key (id_area) references areas(id_area);
 
 alter table disciplinas
-add constraint fk_
+add constraint fk_linea_investigacion_disciplina foreign key (id_linea) references lineas_investigacion(id_linea);
