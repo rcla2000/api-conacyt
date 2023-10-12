@@ -1,4 +1,4 @@
-create database api_campos_cientificos;
+--create database api_campos_cientificos;
 
 use api_campos_cientificos;
 
